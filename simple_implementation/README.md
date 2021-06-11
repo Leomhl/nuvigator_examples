@@ -7,7 +7,7 @@
 The simple implementation It consists in the most [basic example](https://github.com/nubank/nuvigator#quick-start) suggested on documentation of [Nuvigator](https://github.com/nubank/nuvigator).
 
 
-Não manja de inglês? Leia o [README](https://github.com/Leomhl/nuvigator_examples/simple_implementation/blob/master/README_PT.md) em português!
+Não manja de inglês? Leia o [README](https://github.com/Leomhl/nuvigator_examples/blob/master/simple_implementation/README_PT.md) em português!
 
 ## Plugins 📟
 
