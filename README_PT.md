@@ -15,6 +15,8 @@ Nós organizamos o repositório em alguns projetos, são eles:
 
 * **Simple implementation**
 	* A implementação simples é considerada a forma mais básica de acordo com o [exemplo](https://github.com/nubank/nuvigator#quick-start) sugerido na documentação do [Nuvigator](https://github.com/nubank/nuvigator).
+* **Simple nurpute implementation**
+	* O projeto simple_nuroute_implementation consiste no exemplo [mais básico personalizável](https://github.com/nubank/nuvigator#quick-start) sugerido na documentação do [Nuvigator](https://github.com/nubank/nuvigator). Basicamente esta é uma personalização das rotas utilizando a instanciação da classes `NuRoute` e `Nurouter`.
 
 
 ## Plugins 📟

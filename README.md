@@ -17,7 +17,8 @@ We organize the repository in some projects, are they:
 
 * **Simple implementation**
 	* The simple implementation It consists in the most [basic example](https://github.com/nubank/nuvigator#quick-start) suggested on documentation of [Nuvigator](https://github.com/nubank/nuvigator).
-
+* **Simple nuroute implementation**
+	* The simple nuroute implementation It consists in the most [basic complete example](https://github.com/nubank/nuvigator#quick-start) suggested on documentation of [Nuvigator](https://github.com/nubank/nuvigator). Basically this is a personalization of the route using instances of `NuRoute` and `Nurouter`.
 
 ## Plugins 📟
 
