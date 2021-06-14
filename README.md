@@ -1,5 +1,7 @@
 # About this repository 🗣
 
+![](https://img.shields.io/github/license/Leomhl/nuvigator_examples)
+
 This repository was created thinking create a example for each different feature of [Nuvigator](https://github.com/nubank/nuvigator), a framework to manage routes on [Flutter](https://github.com/flutter/flutter) framework.
 
 Please, help us to improve this repository. 
