@@ -1,12 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:nuvigator/next.dart';
 
 class HomeScreen extends StatelessWidget {
+  final onScreenOneClick;
+  final onScreenTwoClick;
+  final onScreenThreeClick;
+
+  HomeScreen({
+    this.onScreenOneClick,
+    this.onScreenTwoClick,
+    this.onScreenThreeClick
+  });
 
   @override
   Widget build(BuildContext context) {
-
-    final nuvigator = Nuvigator.of(context);
 
     return Scaffold(
       appBar: AppBar(
@@ -17,26 +23,26 @@ class HomeScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'Tap a button to change the page',
+              'Tap a button to change the Screen',
             ),
             SizedBox(height: 20,),
             ElevatedButton(
               child: Text('Screen 1'),
-              onPressed: () => nuvigator.open('one'),
+              onPressed: onScreenOneClick,
             ),
             SizedBox(height: 20,),
             ElevatedButton(
               child: Text('Screen 2'),
-              onPressed: () => nuvigator.open('two'),
+              onPressed: onScreenTwoClick,
             ),
             SizedBox(height: 20,),
             ElevatedButton(
-              child: Text('Screen 3'),
-              onPressed: () => nuvigator.open('three'),
-            )
+                child: Text('Screen 3'),
+                onPressed: onScreenThreeClick
+            ),
           ],
         ),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+      ),
     );
   }
 }

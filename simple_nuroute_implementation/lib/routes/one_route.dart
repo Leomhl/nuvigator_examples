@@ -11,6 +11,10 @@ class OneRoute extends NuRoute {
 
   @override
   Widget build(BuildContext context, NuRouteSettings settings) {
-    return OneScreen();
+    return OneScreen(
+      onScreenTwoClick: () => nuvigator.open('two'),
+      onScreenThreeClick: () => nuvigator.open('three'),
+      onClose: () => nuvigator.pop(),
+    );
   }
 }

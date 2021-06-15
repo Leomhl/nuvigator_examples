@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       title: 'Nuvigator simple example',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.purple,
+        primarySwatch: Colors.deepPurple,
       ),
       home: Nuvigator(
         router: MyRouter(),

@@ -1,13 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:nuvigator/next.dart';
 
 class TwoScreen extends StatelessWidget {
+  final VoidCallback onClose;
+  final onScreenOneClick;
+  final onScreenThreeClick;
+
+  TwoScreen({
+    @required this.onClose,
+    @required this.onScreenOneClick,
+    @required this.onScreenThreeClick,
+  });
 
   @override
   Widget build(BuildContext context) {
-
-    //Creates an instance of the navigator based on the current context
-    final nuvigator = Nuvigator.of(context);
 
     return Scaffold(
       appBar: AppBar(
@@ -22,18 +27,18 @@ class TwoScreen extends StatelessWidget {
             ),
             SizedBox(height: 20,),
             ElevatedButton(
-              child: Text('Home'),
-              onPressed: () => nuvigator.closeFlow(), // close flow of screens and return to the root page
+              child: Text('Back'),
+              onPressed: onClose, // close flow of screens and return to the root page
             ),
             SizedBox(height: 20,),
             ElevatedButton(
               child: Text('Screen 1'),
-              onPressed: () => nuvigator.open('one'),
+              onPressed: onScreenOneClick,
             ),
             SizedBox(height: 20,),
             ElevatedButton(
               child: Text('Screen 3'),
-              onPressed: () => nuvigator.open('three'),
+              onPressed: onScreenThreeClick,
             )
           ],
         ),

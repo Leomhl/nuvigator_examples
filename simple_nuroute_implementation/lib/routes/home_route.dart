@@ -11,6 +11,10 @@ class HomeRoute extends NuRoute {
 
   @override
   Widget build(BuildContext context, NuRouteSettings settings) {
-    return HomeScreen();
+    return HomeScreen(
+      onScreenOneClick: () => nuvigator.open('one'),
+      onScreenTwoClick: () => nuvigator.open('two'),
+      onScreenThreeClick: () => nuvigator.open('three'),
+    );
   }
 }
