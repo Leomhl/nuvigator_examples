@@ -7,6 +7,11 @@
 O projeto simple_implementation consiste no [exemplo mais básico](https://github.com/nubank/nuvigator#quick-start) sugerido na documentação do [Nuvigator](https://github.com/nubank/nuvigator).
 
 
+## Demonstração
+
+Demonstração de uso.
+
+![](simple_example.gif)
 
 ## Plugins 📟
 

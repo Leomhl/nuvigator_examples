@@ -16,7 +16,7 @@ class HomeScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text("Nuvigator simple example"),
+        title: Text("Nuvigator router example"),
       ),
       body: Center(
         child: Column(

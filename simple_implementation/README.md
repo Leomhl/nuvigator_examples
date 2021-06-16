@@ -9,6 +9,13 @@ The simple implementation It consists in the most [basic example](https://github
 
 Não manja de inglês? Leia o [README](https://github.com/Leomhl/nuvigator_examples/blob/master/simple_implementation/README_PT.md) em português!
 
+
+## Demonstration
+
+Demonstration of use.
+
+![](simple_example.gif)
+
 ## Plugins 📟
 
 Below we list the plugins used in the projects.

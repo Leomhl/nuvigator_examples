@@ -9,6 +9,12 @@ The simple nuroute implementation It consists in the most [basic complete exampl
 
 Não manja de inglês? Leia o [README](https://github.com/Leomhl/nuvigator_examples/blob/master/simple_nuroute_implementation/README_PT.md) em português!
 
+## Demonstration
+
+Demonstration of use.
+
+![](simple_router.gif)
+
 ## Plugins 📟
 
 Below we list the plugins used in the projects.
