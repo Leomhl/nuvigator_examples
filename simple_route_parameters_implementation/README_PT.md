@@ -4,14 +4,11 @@
 ![](https://img.shields.io/badge/-flutter-blue?style=flat-square&logo=flutter)
 ![](https://img.shields.io/badge/-Nuvigator-purple?style=flat-square&logo=Nuvigator)
 
-The simple route parameters implementation It consists in the passing parameters (values) between routes to be displayed on screens.
-
-
-Não manja de inglês? Leia o [README](./README_PT.md) em português!
+A implementação simples de parâmetros e rotas consiste em um exemplo que demonstra a passagem de parâmetros (valores) entre as rotas para serem exibidos nas telas de um aplicativo.
 
 
 ## Plugins 📟
 
-Below we list the plugins used in the projects.
+Abaixo listamos os plugins utilizados neste projeto.
 
 - [Nuvigator](https://github.com/nubank/nuvigator)

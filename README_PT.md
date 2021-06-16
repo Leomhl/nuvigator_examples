@@ -21,7 +21,8 @@ Nós organizamos o repositório em alguns projetos, são eles:
 	* O projeto simple_nuroute_implementation consiste no exemplo [mais básico personalizável](https://github.com/nubank/nuvigator#quick-start) sugerido na documentação do [Nuvigator](https://github.com/nubank/nuvigator). Basicamente esta é uma personalização das rotas utilizando a instanciação da classes `NuRoute` e `Nurouter`.
 * **Simple route parameters implementation**
 	* A implementação simples de passagem de parâmetros por rota consiste nas múltiplas formas de passar parâmetros entre as telas do aplicativo que o nuvigator provê.
-
+* **Nested nuvigators**
+	* A implementação nested nuvigators (nuvigators aninhados) detalha como criar múltiplos fluxos no aplicativo e interligá-los de maneira que um projeto modular possa ter seu fluxo de navegação concentrado em cada módulo mas se comunicando com toda a aplicação.
 
 ## Plugins 📟
 
