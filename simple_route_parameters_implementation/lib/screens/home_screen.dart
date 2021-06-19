@@ -24,16 +24,38 @@ class HomeScreen extends StatelessWidget {
               Text(
                 'What\'s your name?',
               ),
-              SizedBox(height: 20,),
+              SizedBox(
+                height: 20,
+              ),
               TextField(
                 controller: _nameController,
               ),
-              SizedBox(height: 20,),
+              SizedBox(
+                height: 20,
+              ),
               ElevatedButton(
                 child: Text('Next'),
-
-                // Descobrir o motivo de a rota não receber esse parâmetro passado
-                onPressed: () => nuvigator.open('exapp://one?name=${_nameController.text}'),
+                onPressed: () async {
+                  final result = await nuvigator
+                      .open('myapp://one?name=${_nameController.text}');
+                  showDialog(
+                    context: context,
+                    builder: (BuildContext context) {
+                      return AlertDialog(
+                        title: const Text('Route Closed'),
+                        content: Text('Value Returned: $result'),
+                        actions: <Widget>[
+                          TextButton(
+                            child: const Text('Close'),
+                            onPressed: () {
+                              Navigator.of(context).pop();
+                            },
+                          ),
+                        ],
+                      );
+                    },
+                  );
+                },
               ),
             ],
           ),
