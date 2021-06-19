@@ -15,7 +15,6 @@ class OneScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    print(params);
     return Scaffold(
       appBar: AppBar(
         title: Text("Screen one"),
