@@ -12,8 +12,10 @@ class HomeRoute extends NuRoute {
   @override
   Widget build(BuildContext context, NuRouteSettings settings) {
     return HomeScreen(
-      // Provavelmente isso precisa mudar
-      nuvigator: nuvigator,
+      onNext: (text) => nuvigator.open(
+        'name',
+        parameters: {'text': text},
+      ),
     );
   }
 }

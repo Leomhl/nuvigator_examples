@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
-  final nuvigator;
+  final onNext;
 
   HomeScreen({
-    this.nuvigator,
+    this.onNext,
   });
 
   @override
@@ -16,13 +16,16 @@ class HomeScreen extends StatelessWidget {
         title: Text("Nuvigator router example"),
       ),
       body: Padding(
-        padding: const EdgeInsets.all(20.0),
+        padding: const EdgeInsets.all(40.0),
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Text(
                 'What\'s your name?',
+                style: TextStyle(
+                    fontSize: 25
+                ),
               ),
               SizedBox(height: 20,),
               TextField(
@@ -30,10 +33,14 @@ class HomeScreen extends StatelessWidget {
               ),
               SizedBox(height: 20,),
               ElevatedButton(
-                child: Text('Next'),
-
+                child: Text(
+                 'Next',
+                  style: TextStyle(
+                    fontSize: 25
+                  ),
+                ),
                 // Descobrir o motivo de a rota não receber esse parâmetro passado
-                onPressed: () => nuvigator.open('exapp://one?name=${_nameController.text}'),
+                onPressed: () => onNext(_nameController.value.text),
               ),
             ],
           ),

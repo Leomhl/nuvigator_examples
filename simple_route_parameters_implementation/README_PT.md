@@ -6,6 +6,7 @@
 
 A implementação simples de parâmetros e rotas consiste em um exemplo que demonstra a passagem de parâmetros (valores) entre as rotas para serem exibidos nas telas de um aplicativo.
 
+![](parameter.gif)
 
 ## Plugins 📟
 

@@ -10,6 +10,8 @@ The simple route parameters implementation It consists in the passing parameters
 Não manja de inglês? Leia o [README](./README_PT.md) em português!
 
 
+![](parameter.gif)
+
 ## Plugins 📟
 
 Below we list the plugins used in the projects.
