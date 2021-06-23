@@ -14,6 +14,7 @@ class HomeRoute extends NuRoute {
     return HomeScreen(
       onNext: (text) => nuvigator.open(
         'name',
+        // This is a direct and simple way to pass parameters between screens using nuvigator
         parameters: {'text': text},
       ),
     );

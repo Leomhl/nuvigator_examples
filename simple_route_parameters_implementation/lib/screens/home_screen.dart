@@ -39,7 +39,6 @@ class HomeScreen extends StatelessWidget {
                     fontSize: 25
                   ),
                 ),
-                // Descobrir o motivo de a rota não receber esse parâmetro passado
                 onPressed: () => onNext(_nameController.value.text),
               ),
             ],

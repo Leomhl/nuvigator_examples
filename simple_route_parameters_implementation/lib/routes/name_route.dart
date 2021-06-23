@@ -13,6 +13,7 @@ class OneRoute extends NuRoute {
   Widget build(BuildContext context, NuRouteSettings settings) {
     return NameScreen(
       name: settings.rawParameters['text'],
+      nuvigator: nuvigator,
     );
   }
 }
